@@ -1,0 +1,226 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Manage Your Vehicles - Track and Organize Fleet</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Efficiently manage your vehicle fleet with our comprehensive vehicle management system. Track vehicle history, modify details, and access registration information."
+    />
+    <img
+      alt="Logo"
+      src="https://appproject.dhiwise.com/dhiwise-logo.png?c=&v="
+      style="width: 0px; height: 0px; display: none"
+    />
+    <link rel="stylesheet" type="text/css" href="./css/index.css" />
+    <link rel="stylesheet" type="text/css" href="./css/font.css" />
+    <link rel="stylesheet" type="text/css" href="./css/styles.css" />
+    <link rel="stylesheet" type="text/css" href="./css/components.css" />
+    <link rel="stylesheet" type="text/css" href="./css/Vehicles.css" />
+  </head>
+  <body>
+    <div class="vehicles">
+      <aside class="sidebar">
+        <ul class="sidebar__menu">
+          <div class="sidebar__navigation">
+            <li>
+              <a>
+                <span> Navigation</span>
+              </a>
+            </li>
+            <li>
+              <a>
+                <img src="public/images/img_vector_white_a700.svg" alt="home icon" class="sidebar__icon-1" />
+                <span> Home</span>
+              </a>
+            </li>
+            <li>
+              <a>
+                <span> Vehicles</span>
+              </a>
+            </li>
+            <li>
+              <a>
+                <span> Current position</span>
+              </a>
+            </li>
+            <li>
+              <a>
+                <span> Tracing</span>
+              </a>
+            </li>
+            <li>
+              <a>
+                <span> History</span>
+              </a>
+            </li>
+          </div>
+          <div class="sidebar__divider"></div>
+          <div class="sidebar__options">
+            <p class="sidebar__options-title ui text size-s">Options</p>
+            <li>
+              <a>
+                <img src="public/images/img_profile.svg" alt="profile icon" class="sidebar__icon-2" />
+                <span> FAQ</span>
+              </a>
+            </li>
+            <li>
+              <a>
+                <img src="public/images/img_open_pane.png" alt="logout icon" class="sidebar__icon-3" />
+                <span> Logout</span>
+              </a>
+            </li>
+          </div>
+        </ul>
+        <div class="sidebar__footer">
+          <img src="public/images/img_lock_blue_gray_900.svg" alt="lock icon" class="sidebar__icon" />
+          <div class="sidebar__user-info">
+            <h6 class="sidebar__welcome-text ui heading size-lg">Welcome</h6>
+            <p class="sidebar__user-name ui heading size-xs">Amarouche Dounia</p>
+          </div>
+        </div>
+      </aside>
+
+      <!-- main content section -->
+      <div class="screen-body">
+        <!-- vehicles title section -->
+        <h1 class="section__title ui heading size-2xl">Vehicles</h1>
+        <div class="main-column">
+          <!-- vehicle overview section -->
+          <div class="section__content">
+            <div class="content__row">
+              <h2 class="row__number ui heading size-md">1</h2>
+            </div>
+
+            <!-- vehicle cards section -->
+            <div class="content__cards">
+              <div class="cards__view"></div>
+              <div class="cards__actions">
+                <div class="vehicles-row">
+                  <img src="public/images/img_67393_removebg_1.png" alt="vehicleimage" class="vehicles-row__image" />
+                  <h3 class="vehicles-row__model ui heading size-md">
+                    <span class="vehicles-row__model-span"> Vehicle model<br /></span>
+                    <span class="vehicles-row__model-span-1"> Mazda</span>
+                  </h3>
+                  <h4 class="vehicles-row__id ui heading size-md">
+                    <span class="vehicles-row__id-span"> Vehicle Id<br /></span>
+                    <span class="vehicles-row__id-span-1"> 12345 124 20</span>
+                  </h4>
+                  <h5 class="vehicles-row__registration ui heading size-md">
+                    <span class="vehicles-row__id-span"> Registration date<br /></span>
+                    <span class="vehicles-row__id-span-1"> 01/05/2024</span>
+                  </h5>
+                </div>
+                <div class="actions__buttons">
+                  <button class="buttons__modify ui button blue_gray_100 size-xs fill round">Modifiy</button>
+                  <button class="buttons__modify ui button blue_gray_900_d8 size-xs fill round">Delete</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="section__list">
+            <div class="vehiclecard">
+              <div class="vehiclecard__row-dynamictext">
+                <h6 class="row__number ui heading size-md">2</h6>
+              </div>
+              <div class="vehiclecard__cards-default">
+                <div class="vehiclecard__sheet"></div>
+                <div class="vehiclecard__row-details">
+                  <div class="vehicles-row">
+                    <img src="public/images/img_67393_removebg_1.png" alt="vehicle image" class="vehicles-row__image" />
+                    <h6 class="vehicles-row__model ui heading size-md">
+                      <span class="vehicles-row__model-span"> Vehicle model<br /></span>
+                      <span class="vehicles-row__model-span-1"> Mazda</span>
+                    </h6>
+                    <h6 class="vehicles-row__id ui heading size-md">
+                      <span class="vehicles-row__id-span"> Vehicle Id<br /></span>
+                      <span class="vehicles-row__id-span-1"> 12345 124 20</span>
+                    </h6>
+                    <h6 class="vehicles-row__registration ui heading size-md">
+                      <span class="vehicles-row__id-span"> Registration date<br /></span>
+                      <span class="vehicles-row__id-span-1"> 01/05/2024</span>
+                    </h6>
+                  </div>
+                  <div class="vehiclecard__row-actions">
+                    <button class="buttons__modify ui button blue_gray_100 size-xs fill round">Modifiy</button>
+                    <button class="vehiclecard__button--delete ui button blue_gray_900_d8 size-xs fill round">
+                      Delete
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- vehicle list item section -->
+            <div class="vehiclecard">
+              <div class="vehiclecard__row-dynamictext">
+                <h6 class="row__number ui heading size-md">2</h6>
+              </div>
+              <div class="vehiclecard__cards-default">
+                <div class="vehiclecard__sheet"></div>
+                <div class="vehiclecard__row-details">
+                  <div class="vehicles-row">
+                    <img src="public/images/img_67393_removebg_1.png" alt="vehicle image" class="vehicles-row__image" />
+                    <h6 class="vehicles-row__model ui heading size-md">
+                      <span class="vehicles-row__model-span"> Vehicle model<br /></span>
+                      <span class="vehicles-row__model-span-1"> Mazda</span>
+                    </h6>
+                    <h6 class="vehicles-row__id ui heading size-md">
+                      <span class="vehicles-row__id-span"> Vehicle Id<br /></span>
+                      <span class="vehicles-row__id-span-1"> 12345 124 20</span>
+                    </h6>
+                    <h6 class="vehicles-row__registration ui heading size-md">
+                      <span class="vehicles-row__id-span"> Registration date<br /></span>
+                      <span class="vehicles-row__id-span-1"> 01/05/2024</span>
+                    </h6>
+                  </div>
+                  <div class="vehiclecard__row-actions">
+                    <button class="buttons__modify ui button blue_gray_100 size-xs fill round">Modifiy</button>
+                    <button class="vehiclecard__button--delete ui button blue_gray_900_d8 size-xs fill round">
+                      Delete
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- vehicle list end section -->
+          <div class="section__footer">
+            <div class="content__row">
+              <h6 class="row__number ui heading size-md">3</h6>
+            </div>
+            <div class="footer__content">
+              <div class="content__row-2">
+                <div class="vehicles-row">
+                  <img src="public/images/img_67393_removebg_1.png" alt="vehicleimage" class="vehicles-row__image" />
+                  <h6 class="vehicles-row__model ui heading size-md">
+                    <span class="vehicles-row__model-span"> Vehicle model<br /></span>
+                    <span class="vehicles-row__model-span-1"> Mazda</span>
+                  </h6>
+                  <h6 class="vehicles-row__id ui heading size-md">
+                    <span class="vehicles-row__id-span"> Vehicle Id<br /></span>
+                    <span class="vehicles-row__id-span-1"> 12345 124 20</span>
+                  </h6>
+                  <h6 class="vehicles-row__registration ui heading size-md">
+                    <span class="vehicles-row__id-span"> Registration date<br /></span>
+                    <span class="vehicles-row__id-span-1"> 01/05/2024</span>
+                  </h6>
+                </div>
+                <div class="actions__buttons">
+                  <button class="buttons__modify ui button blue_gray_100 size-xs fill round">Modifiy</button>
+                  <button class="buttons__modify ui button blue_gray_900_d8 size-xs fill round">Delete</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- add vehicle button section -->
+          <h1 class="section__add-button ui heading size-5xl">+</h1>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
